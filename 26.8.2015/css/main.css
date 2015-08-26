@@ -1,7 +1,7 @@
 @font-face{
   font-family: "Myriad Pro";
 }
-/* Header Starts Here */
+/* Header Starts Here  ---------------------------------------------*/
 header{
   padding: 30px 0;
   background-color: #000;
@@ -37,4 +37,32 @@ header .signUp:hover{
 header .signUp:focus{
   background-color: transparent;
 }
-/* Banner Will Start Here */
+/* Banner Will Start Here ------------------------------------------ */
+.banner{
+  padding: 300px 0;
+  background-color: #666666;
+}
+.sprite{
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 130px;
+  height: 130px;
+}
+h1{
+  position: relative;
+  font-size: 60px;
+  font-weight: normal;
+  color: #fff;
+}
+.banner a{
+  position: absolute;
+  top: 496px;
+  left: 71px;
+  font-size: 16px;
+  color: #42b8dd;
+  text-decoration: none;
+}
+.banner a:hover{
+  color: lightblue;
+}
