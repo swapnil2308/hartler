@@ -8,11 +8,10 @@ header{
   font-size: 16px;
 }
 header .logo{
-  background-image: url(../img/icons.png);
-  background-position: 0 0;
-  width: 72px;
-  height: 21px;
-  margin-top: 10px;
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 6px;
 }
 header li .liteBlue{
   color: #fff;
