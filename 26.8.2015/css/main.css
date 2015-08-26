@@ -35,9 +35,7 @@ header .signUp{
 header .signUp:hover{
   background-color: rgba(0, 255, 0, 0.2);
 }
-
 header .signUp:focus{
   background-color: transparent;
 }
-
 /* Banner Will Start Here */
