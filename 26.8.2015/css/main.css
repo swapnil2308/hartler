@@ -1,3 +1,40 @@
-header{
-	
+@font-face{
+  font-family: "Myriad Pro";
 }
+/* Header Starts Here */
+header{
+  padding: 30px 0;
+  background-color: #000;
+  font-size: 16px;
+}
+header .logo{
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 6px;
+}
+header li .liteBlue{
+  color: #fff;
+}
+header li .liteBlue:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+header li{
+  float: left;
+}
+header .signUp{
+  color: #42b8dd;
+  border: 2px solid #42b8dd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+header .signUp:hover{
+  background-color: rgba(0, 255, 0, 0.2);
+}
+header .signUp:focus{
+  background-color: transparent;
+}
+/* Banner Will Start Here */
