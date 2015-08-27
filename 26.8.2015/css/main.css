@@ -1,3 +1,144 @@
+@font-face{
+  font-family: "Myriad Pro";
+}
+/* Header Starts Here ----------------------------------------------- */
 header{
-	
+  padding: 30px 0;
+  background-color: #000;
+  font-size: 16px;
+}
+header .logo{
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 6px;
+}
+header li .liteBlue{
+  color: #fff;
+}
+header li .liteBlue:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+header li{
+  float: left;
+}
+header .signUp{
+  color: #42b8dd;
+  border: 2px solid #42b8dd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+header .signUp:hover{
+  background-color: rgba(0, 255, 0, 0.2);
+}
+header .signUp:focus{
+  background-color: transparent;
+}
+/* Banner Start Here ------------------------------------------------ */
+.banner{
+  padding: 300px 0;
+  background-color: #666666;
+}
+.banner .container{
+  position: relative;
+}
+.banner .sprite{
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 130px;
+  height: 130px;
+}
+h1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: normal;
+}
+.banner a{
+  position: absolute;
+  top: 81px;
+  left: -62px;
+  font-size: 16px;
+  color: #42b8dd;
+  text-decoration: none;
+}
+.banner a:hover{
+  color: lightblue;
+}
+/* Services Starts Here --------------------------------------------- */
+.services{
+  color: #fff;
+  padding: 50px 0;
+  background-color: #42b8dd;
+}
+.services h1{
+  font-size: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services h1 hr{
+  padding: 5px;
+  background-color: #fff;
+
+}
+.serviceOne .sprite,
+.serviceTwo .sprite,
+.serviceThree .sprite,
+.serviceFour .sprite{
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+}
+.sprite-wrapper {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+.serviceOne .sprite{
+  width: 39px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  background-position: 0px -133px;
+}
+.serviceTwo .sprite {
+  width: 39px;
+  height: 38px;
+  display: inline-block;
+  margin-top: 30px;
+  background-position: 5px -166px;
+}
+.serviceThree .sprite{
+  width: 39px;
+  height: 37px;
+  display: inline-block;
+  margin-top: 30px;
+  background-position: 12px -207px;
+}
+.serviceFour .sprite{
+  width: 41px;
+  height: 34px;
+  display: inline-block;
+  margin-top: 30px;
+  background-position: 3px -247px;
+}
+.services .serviceOne h4,
+.services .serviceTwo h4,
+.services .serviceThree h4,
+.services .serviceFour h4{
+  text-transform: uppercase;
+}
+.services .serviceOne p,
+.services .serviceTwo p,
+.services .serviceThree p,
+.services .serviceFour p{
+ margin: 0;
+ padding: 10px;
 }
