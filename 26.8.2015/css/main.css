@@ -1,7 +1,7 @@
 @font-face{
   font-family: "Myriad Pro";
 }
-/* Header Starts Here ----------------------------------------------- */
+/* Header Starts Here  ---------------------------------------------*/
 header{
   padding: 30px 0;
   background-color: #000;
@@ -37,6 +37,7 @@ header .signUp:hover{
 header .signUp:focus{
   background-color: transparent;
 }
+
 /* Banner Start Here ------------------------------------------------ */
 .banner{
   padding: 300px 0;
@@ -53,9 +54,10 @@ header .signUp:focus{
   height: 130px;
 }
 h1{
-  color: #fff;
+  position: relative;
   font-size: 60px;
   font-weight: normal;
+  color: #fff;
 }
 .banner a{
   position: absolute;
