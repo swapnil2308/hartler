@@ -173,5 +173,94 @@ h1{
   background-position: 0px -280px;
 }
 .services-footer ul .note{
-  background-position: 0px -314px;
+  background-position: 0px -315px;
+}
+/* work section starts here-------------------------------------------- */
+.work{
+  padding: 100px 0;
+  background-color: #ebebeb;
+}
+.work h1{
+  color: #363636;
+  font-size: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.work h1 hr{
+  padding: 5px;
+  background-color: #363636;
+}
+.work .btn{
+  text-align: center;
+}
+.work ul{
+  list-style-type: none;
+  clear: both;
+  padding-left: 0;
+}
+.work .upper li{
+  margin: 10px 5px;
+  border: 2px solid #42b8dd;
+  border-radius: 10px;
+}
+.work .upper li a{
+  clear: both;
+  text-decoration: none;
+  color: #42b8dd;
+  border-spacing: 2px;
+}
+.work .upper li:hover{
+  background-color: #42b8dd;
+}
+.work .upper li:hover a{
+  color: #fff;
+}
+.work .btn-all{
+  padding: 7px 30px;
+}
+.work .upper li a:focus{
+  text-transform: none;
+}
+.work .lower li{
+  width: 370px;
+  height: 370px;
+  background-color: #ccc;
+  margin-bottom: 30px;
+  padding: 0;
+  position: relative;
+}
+.work .lower .mid{
+  margin: 0 30px;
+}
+.work .lower h4{
+  text-transform: uppercase;
+  color: #42b8dd;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+}
+.work .lower .posi{
+  display: none;
+  position: absolute;
+  top: 270px;
+  width: 370px;
+  height: 100px;
+  background-color: #fff;
+}
+.work .lower li:hover .posi{
+  display: block;
+}
+.work .lower p{
+  font-size: 14px;
+  color: #898989;
+  text-transform: capitalize;
+}
+.work .lower .add{
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-position: -40px -134px;
 }
