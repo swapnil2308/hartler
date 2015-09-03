@@ -264,3 +264,35 @@ h1{
   display: inline-block;
   background-position: -40px -134px;
 }
+/* work-foot section stats Here----------------------------------------- */
+.work-foot{
+  position: relative;
+  background-color: #666666;
+}
+.cent{
+  text-align: center;
+}
+.quote-text{
+  font-weight: normal;
+  color: #fff;
+  font-size: 36px;
+  margin: 150px;
+}
+.item .car-member{
+  width: 72px;
+  height: 72px;
+  background-color: #cccccc;
+  border-radius: 36px;
+  position: absolute;
+  top: 135px;
+  left: 530px;
+}
+.work-foot h4{
+  position: absolute;
+  text-transform: uppercase;
+  top: 208px;
+  left: 510px;
+}
+.work-foot .indicator{
+   bottom: 0;
+}
