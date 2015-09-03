@@ -82,7 +82,6 @@ h1{
 .services h1 hr{
   padding: 5px;
   background-color: #fff;
-
 }
 .sprite-wrapper {
   width: 100px;
@@ -95,7 +94,7 @@ h1{
   vertical-align: middle;
 }
 .cloud{
-    background-image: url(../img/icons.png);
+  background-image: url(../img/icons.png);
   background-repeat: no-repeat;
   width: 39px;
   height: 30px;
@@ -104,7 +103,7 @@ h1{
   background-position: -135px 0;
 }
 .fork {
-    background-image: url(../img/icons.png);
+  background-image: url(../img/icons.png);
   background-repeat: no-repeat;
   width: 39px;
   height: 38px;
@@ -113,7 +112,7 @@ h1{
   background-position: -135px -31px;
 }
 .light{
-    background-image: url(../img/icons.png);
+  background-image: url(../img/icons.png);
   background-repeat: no-repeat;
   width: 39px;
   height: 37px;
@@ -122,7 +121,7 @@ h1{
   background-position: -135px -73px;
 }
 .hammer{
-    background-image: url(../img/icons.png);
+  background-image: url(../img/icons.png);
   background-repeat: no-repeat;
   width: 41px;
   height: 34px;
@@ -144,3 +143,35 @@ h1{
  padding: 10px;
 }
 /*Servics Footer Here ------------------------------------------------- */
+.services-footer li{
+  margin: 0 73px;
+  text-align: center;
+  list-style-type: none;
+  width: 39px;
+  height: 35px;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.services-footer ul{
+  margin: 60px auto;
+  padding: 0;
+}
+.services-footer ul .bulb{
+  background-position: 0px -133px;
+}
+.services-footer ul .earth{
+  background-position: 0px -169px;
+}
+.services-footer ul .cam{
+  background-position: 0px -205px;
+}
+.services-footer ul .wrench{
+  background-position: 0px -242px;
+}
+.services-footer ul .mic{
+  background-position: 0px -280px;
+}
+.services-footer ul .note{
+  background-position: 0px -314px;
+}
