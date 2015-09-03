@@ -266,19 +266,20 @@ h1{
 }
 /* work-foot section stats Here----------------------------------------- */
 .work-foot{
+  padding-bottom: 40px;
   position: relative;
   background-color: #666666;
 }
-.cent{
+.work-foot .cent{
   text-align: center;
 }
-.quote-text{
+.work-foot .quote-text{
   font-weight: normal;
   color: #fff;
   font-size: 36px;
   margin: 150px;
 }
-.item .car-member{
+.work-foot .item .car-member{
   width: 72px;
   height: 72px;
   background-color: #cccccc;
