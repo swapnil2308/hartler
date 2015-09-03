@@ -84,13 +84,6 @@ h1{
   background-color: #fff;
 
 }
-.serviceOne .sprite,
-.serviceTwo .sprite,
-.serviceThree .sprite,
-.serviceFour .sprite{
-  background-image: url(../img/icons.png);
-  background-repeat: no-repeat;
-}
 .sprite-wrapper {
   width: 100px;
   height: 100px;
@@ -101,33 +94,41 @@ h1{
   text-align: center;
   vertical-align: middle;
 }
-.serviceOne .sprite{
+.cloud{
+    background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
   width: 39px;
   height: 30px;
   display: inline-block;
   margin-top: 30px;
-  background-position: 0px -133px;
+  background-position: -135px 0;
 }
-.serviceTwo .sprite {
+.fork {
+    background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
   width: 39px;
   height: 38px;
   display: inline-block;
   margin-top: 30px;
-  background-position: 5px -166px;
+  background-position: -135px -31px;
 }
-.serviceThree .sprite{
+.light{
+    background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
   width: 39px;
   height: 37px;
   display: inline-block;
   margin-top: 30px;
-  background-position: 12px -207px;
+  background-position: -135px -73px;
 }
-.serviceFour .sprite{
+.hammer{
+    background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
   width: 41px;
   height: 34px;
   display: inline-block;
   margin-top: 30px;
-  background-position: 3px -247px;
+  background-position: -135px -114px;
 }
 .services .serviceOne h4,
 .services .serviceTwo h4,
@@ -142,3 +143,4 @@ h1{
  margin: 0;
  padding: 10px;
 }
+/*Servics Footer Here ------------------------------------------------- */
