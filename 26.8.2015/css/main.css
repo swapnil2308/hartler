@@ -581,3 +581,18 @@ h1{
   border-radius: 15px;
   width: 340px;
 }
+/* footer starts Here------------------------------------------------- */
+footer{
+  background-color: #000;
+  text-align: center;
+  padding: 50px 0;
+}
+footer h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+footer p{
+  color: #555;
+}
