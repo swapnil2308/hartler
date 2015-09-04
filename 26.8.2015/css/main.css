@@ -529,4 +529,17 @@ h1{
   padding: 11px;
   color: #42b8dd;
   border-radius: 15px;
+  font-weight: bold;
+}
+/* clients Section Starts Here ----------------------------------------- */
+.clients{
+  background-color: #7f7f7f;
+}
+.clients ul{
+  padding: 0;
+  margin: 0;
+}
+.clients li{
+  padding: 28px 15px;
+  display: inline-block;
 }
