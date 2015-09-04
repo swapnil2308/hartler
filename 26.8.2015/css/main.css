@@ -513,3 +513,20 @@ h1{
 .menu h4:hover + .para{
   display: block;
 }
+/* Email Section Starts Here------------------------------------------- */
+.email{
+  padding: 30px 0 20px 0;
+  background-color: #42b8dd;
+  color: #fff;
+  text-align: center;
+}
+.email span{
+  font-size: 36px;
+  padding-right: 50px;
+}
+.email .subs-btn{
+  background-color: #fff;
+  padding: 11px;
+  color: #42b8dd;
+  border-radius: 15px;
+}
