@@ -80,6 +80,7 @@ h1{
   text-transform: uppercase;
 }
 .services h1 hr{
+  margin: 0;
   padding: 5px;
   background-color: #fff;
 }
@@ -187,6 +188,7 @@ h1{
   text-transform: uppercase;
 }
 .work h1 hr{
+  margin: 0;
   padding: 5px;
   background-color: #363636;
 }
@@ -269,6 +271,7 @@ h1{
   padding-bottom: 40px;
   position: relative;
   background-color: #666666;
+  padding: 60px 0 30px;
 }
 .work-foot .cent{
   text-align: center;
@@ -277,23 +280,101 @@ h1{
   font-weight: normal;
   color: #fff;
   font-size: 36px;
-  margin: 150px;
 }
 .work-foot .item .car-member{
+  margin-top: 15px;
   width: 72px;
   height: 72px;
   background-color: #cccccc;
-  border-radius: 36px;
-  position: absolute;
-  top: 135px;
-  left: 530px;
+  border-radius:50%;
+  margin: 0 auto;
+  text-align: center;
 }
 .work-foot h4{
-  position: absolute;
   text-transform: uppercase;
-  top: 208px;
-  left: 510px;
+  margin-bottom: 78px;
+  color: #fff;
+  font-weight: bold;
 }
-.work-foot .indicator{
-   bottom: 0;
+/* team Section Starts Here -------------------------------------------- */
+.team h1{
+  color: #363636;
+  font-size: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.team h1 hr{
+  padding: 5px;
+  background-color: #363636;
+  margin: 0 0 70px 0;
+}
+.team .grey{
+  height: 170px;
+  width: 170px;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+.team ul{
+  padding-left: 0;
+}
+.team li{
+  list-style-type: none;
+}
+.team .bird,
+.team .fb,
+.team .insta{
+  position: relative;
+   background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.team .bird{
+  position: absolute;
+  top: 55px;
+  left: 154px;
+  background-position: -78px -189px;
+}
+.team .fb{
+  position: absolute;
+  top: 55px;
+  left: 212px;
+  background-position: -78px -134px;
+}
+.team .insta{
+  position: absolute;
+  top: 55px;
+  left: 270px;
+  background-position: -78px -243px;
+}
+.team h4,
+.team h6,
+.team p{
+  padding-left: 100px;
+}
+.team h4{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #42b8dd;
+}
+.team h6{
+  font-size: 14px;
+  color: #898989;
+}
+.team p{
+  font-size: 14px;
+  text-align: left;
+}
+.team .plus{
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 31px;
+  height: 32px;
+  display: inline-block;
+  background-position: -41px -134px;
+  margin-bottom: 140px;
 }
