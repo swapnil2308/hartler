@@ -378,3 +378,43 @@ h1{
   background-position: -41px -134px;
   margin-bottom: 140px;
 }
+/* team-foot Section Starts Here--------------------------------------- */
+.team-foot{
+  background-color: #666666;
+  color: #fff;
+  padding: 85px 0;
+  text-align: center;
+  font-weight: normal;
+}
+.team-foot i{
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 74px;
+  height: 61px;
+}
+.team-foot .gift{
+  background-position: 0 -350px;
+  width: 62px;
+  height: 57px;
+}
+.team-foot .chat{
+  background-position: 0 -409px;
+}
+.team-foot .cup{
+  background-position: -72px -298px;
+}
+.team-foot .trophy{
+  background-position: -72px -360px;
+}
+.team-foot li{
+  list-style-type: none;
+}
+.team-foot h1{
+  font-size: 72px;
+}
+.team-foot h4{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
