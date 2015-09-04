@@ -240,11 +240,12 @@ h1{
   font-size: 18px;
   text-align: center;
   padding-top: 30px;
+  margin: 0;
 }
 .work .lower .posi{
   display: none;
   position: absolute;
-  top: 270px;
+  bottom: 0;
   width: 370px;
   height: 100px;
   background-color: #fff;
@@ -324,7 +325,7 @@ h1{
 .team .fb,
 .team .insta{
   position: relative;
-   background-image: url(../img/icons.png);
+  background-image: url(../img/icons.png);
   background-repeat: no-repeat;
   background-color: transparent;
   width: 50px;
@@ -417,4 +418,98 @@ h1{
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
+}
+/* skills section starts here ------------------------------------------ */
+.skills{
+  margin: 100px 0 138px 0;
+}
+.skills h1{
+  color: #363636;
+  font-size: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.skills h1 hr{
+  padding: 5px;
+  background-color: #363636;
+  margin: 0 0 70px 0;
+}
+.arc{
+  position: relative;
+}
+.arc li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.arc .img-one{
+  position: relative;
+  background: url(../img/skill1.png) no-repeat;
+  height: 170px;
+  width: 170px;
+}
+.arc .img-two{
+  position: relative;
+  background: url(../img/skill2.png) no-repeat;
+  margin-left: 85px;
+  height: 170px;
+  width: 85px;
+}
+.arc .img-three{
+  position: relative;
+  background: url(../img/skill1.png) no-repeat;
+  height: 170px;
+  width: 170px;
+}
+.arc .img-four{
+  position: relative;
+  background: url(../img/skill3.png) no-repeat;
+  margin-left: 85px;
+  height: 170px;
+  width: 85px;
+}
+.arc .skill-one,
+.arc .skill-three{
+  position: absolute;
+  top: 64px;
+  left: 74px;
+}
+.arc .skill-two,
+.arc .skill-four{
+  position: absolute;
+  top: 66px;
+  left: -5px;
+}
+.arc .skills-con{
+  margin-left: 133px;
+}
+.arc h4{
+  font-weight: bold;
+  color: #42b8dd;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.arc .con{
+  margin-top: 50px;
+}
+.arc p{
+  font-size: 14px;
+}
+.menu li{
+  list-style-type: none;
+}
+.menu h4{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+  border: 1px solid #898989;
+  border-radius: 5px;
+}
+.menu h4:hover{
+  color: #42b8dd;
+}
+.menu .para{
+  display: none;
+}
+.menu h4:hover + .para{
+  display: block;
 }
